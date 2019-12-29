@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3b5998 "
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:alpha="1"
+        android:text="facebook"
+        android:textColor="@android:color/white"
+        android:textSize="55dp"
+        app:fontFamily="@font/roboto_slab_bold" />
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="162dp"
+        android:background="@android:color/background_light"
+        android:paddingLeft="10dp"
+        android:text="Email"
+        android:textColor="#6a6a6a" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/name2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/background_light"
+        android:paddingLeft="10dp"
+        android:text="Password"
+        android:textColor="#6a6a6a" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:background="#2f477a"
+        android:layout_marginTop="15dp"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Sign up for facebook ?"
+
+
+        />
+
+
+</RelativeLayout>
